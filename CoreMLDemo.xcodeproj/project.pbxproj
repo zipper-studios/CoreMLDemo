@@ -12,8 +12,8 @@
 		CEDFBF8322BA59BF00F6A435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBF8122BA59BF00F6A435 /* Main.storyboard */; };
 		CEDFBF8522BA59C300F6A435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBF8422BA59C300F6A435 /* Assets.xcassets */; };
 		CEDFBF8822BA59C300F6A435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBF8622BA59C300F6A435 /* LaunchScreen.storyboard */; };
-		CEDFBF9022BA5A0000F6A435 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CEDFBF8F22BA5A0000F6A435 /* SqueezeNet.mlmodel */; };
 		CEDFBFB022BBA29200F6A435 /* PredictionResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFBFAF22BBA29200F6A435 /* PredictionResultViewController.swift */; };
+		CEDFBFB222C0B2BF00F6A435 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CEDFBFB122C0B2BF00F6A435 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		CEDFBF8422BA59C300F6A435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDFBF8722BA59C300F6A435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDFBF8922BA59C300F6A435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEDFBF8F22BA5A0000F6A435 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SqueezeNet.mlmodel; path = ../../../../Desktop/SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		CEDFBFAF22BBA29200F6A435 /* PredictionResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionResultViewController.swift; sourceTree = "<group>"; };
+		CEDFBFB122C0B2BF00F6A435 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SqueezeNet.mlmodel; path = ../../../Desktop/SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 		CEDFBF7122BA59BF00F6A435 = {
 			isa = PBXGroup;
 			children = (
-				CEDFBF8F22BA5A0000F6A435 /* SqueezeNet.mlmodel */,
+				CEDFBFB122C0B2BF00F6A435 /* SqueezeNet.mlmodel */,
 				CEDFBF7C22BA59BF00F6A435 /* CoreMLDemo */,
 				CEDFBF7B22BA59BF00F6A435 /* Products */,
 			);
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDFBF8022BA59BF00F6A435 /* ViewController.swift in Sources */,
-				CEDFBF9022BA5A0000F6A435 /* SqueezeNet.mlmodel in Sources */,
+				CEDFBFB222C0B2BF00F6A435 /* SqueezeNet.mlmodel in Sources */,
 				CEDFBFB022BBA29200F6A435 /* PredictionResultViewController.swift in Sources */,
 				CEDFBF7E22BA59BF00F6A435 /* AppDelegate.swift in Sources */,
 			);
